@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 *,
 *:before,
 *:after {
@@ -7,6 +9,9 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  background: #DBD7D4;
+  font-family: Lora,Helvetica,Arial,sans-serif;
+  color: black;
 }
 
 html,
@@ -40,22 +45,29 @@ h3 {
 
 .navBar {
   width:100vw;
-  height: 50px;
-  background: blue;
+  height: 55px;
+  background: linear-gradient(90deg, #83817F, #b09e8c);
   text-align: end;
 }
 
 .btn {
-  margin: 12px 10px;
+  margin: 14px 10px;
+  padding: 6px;
+  background: #DBD7D4;
+  color: #121212;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
 }
 
 .userProfile {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   display: flex;
-  border: 1px solid black;
+  border: 1px solid #DBD7D4;
   margin: 25px;
   padding-bottom: 80px;
+  background: #F8F8F8;
 }
 
 .userProfile__info {
@@ -73,11 +85,12 @@ h3 {
 }
 
 .contacts {
+  background: #F8F8F8;
   grid-column: 2 / 3;
   grid-row: 1 / 4;
   height: 90vh;
   margin: 25px;
-  border: 2px solid black;
+  border: 2px solid #DBD7D4;
   text-align: center;
 }
 
@@ -85,26 +98,29 @@ h3 {
   width: 90%;
   height: 20%;
   display: flex;
-  border: 1px solid black;
+  border: 1px solid #DBD7D4;
   margin: 25px;
 }
 
 .posts {
+  background: #F8F8F8;
   grid-column: 1 / 2;
   grid-row: 2 / 4;
   margin: 25px;
-  border: 1px solid black;
+  border: 1px solid #DBD7D4;
   text-align: center;
 }
 
 .posts-post {
+  background: #F1EFF1;
   display: flex;
   width: 90%;
   flex-direction: column;
-  border: 1px solid black;
+  border: 1px solid #DBD7D4;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  border-radius: 5px;
 }
 
 .posts-post h1 {
