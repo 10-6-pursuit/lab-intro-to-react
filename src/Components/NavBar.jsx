@@ -1,6 +1,6 @@
 function NavBar() {
     return (
-        <h1>Yo, this is a Nav Bar!</h1>
+        <h1>Yo, this is a NavBar!</h1>
     )
 }
 
