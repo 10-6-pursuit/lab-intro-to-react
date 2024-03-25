@@ -1,0 +1,15 @@
+nav {
+
+    background: lightskyblue;
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    padding: 10px;
+    /* justify-content: end; */
+    
+    input {
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
