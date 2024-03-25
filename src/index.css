@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-['lora'] m-0 bg-swiss-coffee-300;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl font-semibold;
+  }
+
+  h3 {
+    @apply text-lg font-normal;
+  }
+
+  .btn {
+    @apply mx-[10px] my-[10px] p-[6px] bg-swiss-coffee-300 text-[#121212] rounded-md font-bold border-none;
+  }
+}

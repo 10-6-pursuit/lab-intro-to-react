@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className="container">
+      <div className="w-screen h-[90vh] grid grid-cols-[4fr_2fr] grid-rows-3">
       <UserProfile />
       <Posts/>
       <Contacts/>
