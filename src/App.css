@@ -1,0 +1,24 @@
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-row: 1fr 2fr;
+    /* border: 2px solid gold; */
+    margin: 30px;
+    gap: 60px;
+}
+
+#UserProfile {
+    border: 1px solid black;
+}
+
+
+#Posts {
+    grid-row: 2 / 3;
+    border: 1px solid black;
+}
+
+#Contacts {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    border: 1px solid black;
+}

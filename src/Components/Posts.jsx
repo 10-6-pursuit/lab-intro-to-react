@@ -3,10 +3,15 @@ import Post from "./Post";
 function Posts () {
     return (
         <>
-        <h2>Yo, this is the Posts!  I am going to have 3 more children component post and 1 children component of ...</h2>
-        <Post />
-        <Post />
-        <Post />
+        <div id="Posts">
+            <h2>Posts</h2>
+            <ul>
+                <Post />
+                <Post />
+                <Post />
+                <div>...</div>
+            </ul>
+        </div>
         </>
     )
 }
