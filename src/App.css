@@ -2,12 +2,11 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-row: 1fr 2fr;
-    /* border: 2px solid gold; */
     margin: 30px;
     gap: 60px;
 }
 
-#UserProfile {
+.UserProfile {
     border: 1px solid black;
 }
 

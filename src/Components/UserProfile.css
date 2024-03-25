@@ -1,0 +1,16 @@
+.UserProfile {
+    display: flex;
+    text-align: center;
+
+    .info {
+        margin-left: 20px;
+    }
+
+    h5 {
+        font-weight: 100;
+    }
+}
+
+img {
+    border: 1px solid grey;
+}

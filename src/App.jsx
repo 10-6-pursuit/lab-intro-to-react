@@ -8,16 +8,14 @@ import "./App.css";
 
 function App() {
   return (
-    <>
     <div className="App">
       <NavBar id="NavBar" />
       <div className="grid">
-      <UserProfile id="UserProfile" />
+      <UserProfile />
       <Posts />
       <Contacts />
       </div>
       </div> 
-    </>
   )
 }
 
