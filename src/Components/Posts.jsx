@@ -4,7 +4,7 @@ function Posts () {
     return (
         <>
         <div id="Posts">
-            <h2>Posts</h2>
+            <h3>Posts</h3>
             <ul>
                 <Post />
                 <Post />

@@ -1,18 +1,17 @@
-.userProfile {
+.contactProfile {
     display: flex;
     text-align: center;
-    padding-bottom: 100px;
+    
+    border: 1px solid black;
+    margin: 15px;
+    padding-right: 100px;
 
-    .userInfo {
+    .contactInfo {
         margin-left: 20px;
     }
 
     h5 {
         font-weight: 100;
     }
-}
 
-.userImg {
-    height: auto;
-    border: 1px solid grey;
 }
