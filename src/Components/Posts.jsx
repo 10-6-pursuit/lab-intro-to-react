@@ -3,14 +3,12 @@ import Post from "./Post";
 function Posts () {
     return (
         <>
-        <div id="Posts">
+        <div className="posts">
             <h3>Posts</h3>
-            <ul>
                 <Post />
                 <Post />
                 <Post />
-                <div>...</div>
-            </ul>
+                <div></div>
         </div>
         </>
     )
