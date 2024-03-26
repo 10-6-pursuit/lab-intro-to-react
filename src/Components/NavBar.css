@@ -1,13 +1,15 @@
 nav {
+    align-items: center;
     background: lightskyblue;
     display: flex;
     justify-content: end;
-    height: 50px;
+    height: 30px;
     padding: 10px;
     
     input {
+        font-size: xx-small;
         height: auto;
         margin-left: 10px;
-        margin-right: 10px;
+        margin-right: 8px;
     }
 }
