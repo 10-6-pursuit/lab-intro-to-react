@@ -1,0 +1,18 @@
+.userProfile {
+    display: flex;
+    text-align: center;
+    padding-bottom: 100px;
+
+    .userInfo {
+        margin-left: 20px;
+    }
+
+    h5 {
+        font-weight: 100;
+    }
+}
+
+.userImg {
+    height: auto;
+    border: 1px solid grey;
+}

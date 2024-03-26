@@ -1,0 +1,12 @@
+.eachPost {
+   text-align: center;
+   margin: 15px;
+   border: 1px solid black;
+   width: 100%;
+   
+}
+
+h5 {
+    margin: 12px;
+    font-weight: 100;;
+}
